@@ -1,0 +1,2 @@
+requests==2.18.4
+mysql_connector_repackaged==0.3.1

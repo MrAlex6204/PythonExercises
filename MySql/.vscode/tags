@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+address_data_source_url	../insert_data_into_table.py	/^address_data_source_url = "http:\/\/beta.json-generator.com\/api\/json\/get\/4kMLXjpdX"$/;"	kind:variable	line:22
+address_records	../insert_data_into_table.py	/^address_records = json.loads(address_req.content)$/;"	kind:variable	line:31
+address_req	../insert_data_into_table.py	/^address_req = requests.get(address_data_source_url)$/;"	kind:variable	line:27
+auth	../config.py	/^auth ={$/;"	kind:variable	line:3
+cnn	../insert_data_into_table.py	/^cnn = mysql.connector.Connect(**config.auth)$/;"	kind:variable	line:47
+cnn	../retrive_data_from_table.py	/^cnn = mysql.connector.Connect(**config.auth)$/;"	kind:variable	line:16
+config.py	../config.py	1;"	kind:file	line:1
+counter	../insert_data_into_table.py	/^counter = 0$/;"	kind:variable	line:52
+counter	../insert_data_into_table.py	/^counter = 201$/;"	kind:variable	line:66
+counter	../insert_data_into_table.py	/^counter = 201$/;"	kind:variable	line:77
+cr	../insert_data_into_table.py	/^cr = cnn.cursor()$/;"	kind:variable	line:50
+cr	../retrive_data_from_table.py	/^cr = cnn.cursor()$/;"	kind:variable	line:18
+display	../retrive_data_from_table.py	/^def display(*row):$/;"	kind:function	line:10
+display_address	../insert_data_into_table.py	/^def display_address(**row):$/;"	kind:function	line:14
+display_columns	../retrive_data_from_table.py	/^def display_columns(*columns):$/;"	kind:function	line:7
+display_employee	../insert_data_into_table.py	/^def display_employee(**row):    $/;"	kind:function	line:9
+display_sales	../insert_data_into_table.py	/^def display_sales(**row):$/;"	kind:function	line:17
+employee_data_source_url	../insert_data_into_table.py	/^employee_data_source_url = "http:\/\/beta.json-generator.com\/api\/json\/get\/V1WiBrCRg"$/;"	kind:variable	line:21
+employee_records	../insert_data_into_table.py	/^employee_records  = json.loads(employee_req.content)$/;"	kind:variable	line:30
+employee_req	../insert_data_into_table.py	/^employee_req = requests.get(employee_data_source_url)$/;"	kind:variable	line:26
+insert_data_into_table.py	../insert_data_into_table.py	1;"	kind:file	line:1
+qry	../retrive_data_from_table.py	/^qry = "Select * From TblAddresses_View"$/;"	kind:variable	line:13
+retrive_data_from_table.py	../retrive_data_from_table.py	1;"	kind:file	line:1
+sales_data_source_url	../insert_data_into_table.py	/^sales_data_source_url = "http:\/\/beta.json-generator.com\/api\/json\/get\/MLv346R"$/;"	kind:variable	line:23
+sales_records	../insert_data_into_table.py	/^sales_records = json.loads(sales_req.content)$/;"	kind:variable	line:32
+sales_req	../insert_data_into_table.py	/^sales_req = requests.get(sales_data_source_url)$/;"	kind:variable	line:28
